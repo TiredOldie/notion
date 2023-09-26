@@ -140,11 +140,11 @@ function dispalyGreetings(today){
         document.getElementById('sec').innerHTML = seconds;
     }
 
-    function twelveHour(hour) {
-        if (hour > 12) {
-            return hour -= 12
+    function twentyFourHours(hour) {
+        if (hour > 24) {
+            return hour -= 24
         } else if (hour === 0) {
-            return hour = 12;
+            return hour = 0;
         } else {
             return hour
         }
